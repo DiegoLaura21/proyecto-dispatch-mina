@@ -1,0 +1,150 @@
+{
+  "corte": "2025-09-22 18:00:00",
+  "ley_chancado_pct": 0.3,
+  "ley_acopio_pct": 0.18,
+  "tolerancia_peso_pct": 5,
+  "viajes_cargados": 5691,
+  "qaqc": {
+    "validado": 5426,
+    "recepcion_conflictiva": 70,
+    "sin_recepcion_al_corte": 106,
+    "secuencia_invalida": 47,
+    "peso_en_revision": 42
+  },
+  "viajes_evaluables_ruta": 5426,
+  "viajes_validados_sin_ley_referencia": 0,
+  "viajes_con_reenvio_identico": 169,
+  "eventos_huerfanos": 3,
+  "cambios_destino_vs_plan": 360,
+  "casos_ruta": {
+    "coincide": 4646,
+    "bajo_corte_a_chancado": 221,
+    "baja_ley_a_botadero": 50,
+    "otra_diferencia": 437,
+    "mineral_a_botadero": 72
+  },
+  "tmh_por_caso_ruta": {
+    "coincide": 1050058.65,
+    "bajo_corte_a_chancado": 50026.77,
+    "baja_ley_a_botadero": 11266.87,
+    "otra_diferencia": 98765.0,
+    "mineral_a_botadero": 16377.68
+  },
+  "tmh_evaluables": 1226494.97,
+  "tmh_con_discrepancia": 176436.32,
+  "pct_tmh_discrepancia": 14.3854,
+  "discrepancias_por_momento_de_ley": {
+    "surge_con_referencia_posterior": 443,
+    "visible_con_ley_al_despacho": 337
+  },
+  "mayor_tasa_zona_turno": {
+    "zona": "Contacto Este",
+    "turno": "Noche",
+    "viajes_evaluables": 1042,
+    "tmh_evaluables": 235536.85,
+    "mineral_a_botadero_tmh": 9772.32,
+    "bajo_corte_a_chancado_tmh": 9254.34,
+    "baja_ley_a_botadero_tmh": 2911.47,
+    "viajes_alerta": 307,
+    "pct_tmh_alerta": 29.45842656892117
+  },
+  "p90_chancado_por_hora_llegada": {
+    "07": {
+      "viajes": 65,
+      "p90_min": 10.6
+    },
+    "08": {
+      "viajes": 59,
+      "p90_min": 6.567
+    },
+    "09": {
+      "viajes": 70,
+      "p90_min": 7.383
+    },
+    "10": {
+      "viajes": 72,
+      "p90_min": 6.167
+    },
+    "11": {
+      "viajes": 72,
+      "p90_min": 7.017
+    },
+    "12": {
+      "viajes": 72,
+      "p90_min": 7.567
+    },
+    "13": {
+      "viajes": 79,
+      "p90_min": 7.283
+    },
+    "14": {
+      "viajes": 64,
+      "p90_min": 6.917
+    },
+    "15": {
+      "viajes": 76,
+      "p90_min": 7.367
+    },
+    "16": {
+      "viajes": 63,
+      "p90_min": 6.8
+    },
+    "17": {
+      "viajes": 73,
+      "p90_min": 7.467
+    },
+    "18": {
+      "viajes": 64,
+      "p90_min": 7.817
+    },
+    "19": {
+      "viajes": 69,
+      "p90_min": 20.55
+    },
+    "20": {
+      "viajes": 67,
+      "p90_min": 21.333
+    },
+    "21": {
+      "viajes": 54,
+      "p90_min": 16.2
+    },
+    "22": {
+      "viajes": 69,
+      "p90_min": 13.65
+    },
+    "23": {
+      "viajes": 67,
+      "p90_min": 13.433
+    },
+    "00": {
+      "viajes": 66,
+      "p90_min": 12.717
+    },
+    "01": {
+      "viajes": 74,
+      "p90_min": 11.85
+    },
+    "02": {
+      "viajes": 66,
+      "p90_min": 13.333
+    },
+    "03": {
+      "viajes": 69,
+      "p90_min": 12.667
+    },
+    "04": {
+      "viajes": 71,
+      "p90_min": 10.267
+    },
+    "05": {
+      "viajes": 69,
+      "p90_min": 11.183
+    },
+    "06": {
+      "viajes": 77,
+      "p90_min": 12.683
+    }
+  },
+  "hora_con_mayor_p90_chancado": "20"
+}
